@@ -6,10 +6,9 @@ const Signup = () => {
     return (
         <div className="signup">
             <img src={logo} alt="" width={60} />
-
             <h3>Sign up</h3>
             <SignupForm />
-            <p className="login-btn">
+            <p className="lbtn">
                 Already have an account? <a href="/">Login</a>
             </p>
         </div>
